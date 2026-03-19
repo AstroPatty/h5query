@@ -1,5 +1,12 @@
 use pyo3::prelude::*;
 
+mod column;
+mod filter;
+mod query;
+mod select;
+mod stage;
+mod take;
+
 /// A Python module implemented in Rust.
 #[pymodule]
 mod h5query {
