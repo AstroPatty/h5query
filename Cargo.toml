@@ -9,4 +9,6 @@ name = "h5query"
 crate-type = ["cdylib"]
 
 [dependencies]
+hdf5-metno = "0.12.3"
+ndarray = "0.17.2"
 pyo3 = "0.27.0"
